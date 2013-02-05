@@ -1,0 +1,59 @@
+Creating new different thread for every client as the client request is accepted
+connection:1
+The IPv4 address is: 127.0.0.1
+MESSAGE FROM CLIENT: connection
+Request for connection by client
+MESSAGE FROM CLIENT: ip127.0.0.1
+requested ip adress found
+MESSAGE FROM CLIENT: key00700033
+MESSAGE FROM CLIENT: key00700033
+MESSAGE FROM CLIENT: exit
+Creating new different thread for every client as the client request is accepted
+connection:1
+The IPv4 address is: 127.0.0.1
+MESSAGE FROM CLIENT: connection
+Request for connection by client
+MESSAGE FROM CLIENT: ip127.0.0.1
+requested ip adress found
+MESSAGE FROM CLIENT: key00700033
+MESSAGE FROM CLIENT: key00700033
+MESSAGE FROM CLIENT: 9
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 20
+MESSAGE FROM CLIENT: 20
+MESSAGE FROM CLIENT: 14
+MESSAGE FROM CLIENT: 9
+MESSAGE FROM CLIENT: 26
+MESSAGE FROM CLIENT: 14
+MESSAGE FROM CLIENT: 16
+MESSAGE FROM CLIENT: exit
+Creating new different thread for every client as the client request is accepted
+connection:1
+The IPv4 address is: 127.0.0.1
+Creating new different thread for every client as the client request is accepted
+connection:2
+The IPv4 address is: 10.100.91.40
+MESSAGE FROM CLIENT: connection
+Request for connection by client
+MESSAGE FROM CLIENT: ip10.100.91.40
+requested ip adress found
+MESSAGE FROM CLIENT: key02300187
+MESSAGE FROM CLIENT: key00700033
+MESSAGE FROM CLIENT: connected
+MESSAGE FROM CLIENT: 2
+MESSAGE FROM CLIENT: 1
+MESSAGE FROM CLIENT: 6
+MESSAGE FROM CLIENT: 13
+MESSAGE FROM CLIENT: 2
+MESSAGE FROM CLIENT: 83
+MESSAGE FROM CLIENT: 180
+MESSAGE FROM CLIENT: 49
+MESSAGE FROM CLIENT: 31
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: 27
+MESSAGE FROM CLIENT: exit
