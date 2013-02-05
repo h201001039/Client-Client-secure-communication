@@ -1,0 +1,79 @@
+Steps and protocols that should be follow to run our programmes.
+
+
+
+first go to the 171 line no of client.c and change NULL to the ip adress of the server computer.
+
+
+
+
+> gcc server.c -lpthread		// compile the server.c on any computer(server computer)	
+> ./a.out		// executing the file 
+
+> gcc client.c -lpthread		// compile the client.c on any 2nd computer(client1)
+> ./a.out		// executing the file 
+
+> gcc client.c -lpthread		// compile the client.c on any third computer(client2)
+> ./a.out		// executing the file 
+
+***************************************************************************************************************
+enter any two prime(p,q) no on client1 let p=11,q=3
+
+then enter a no e which is relative prime to (p-1)*(q-1) let e=7
+
+>>>on terminal of client 1:Public Key      : {7,33}
+
+>>>on terminal of server: connection:1
+			  The IPv4 address is: 10.100.91.40
+
+enter any two prime(p,q) no on client2 let p=13,q=17
+
+then enter a no e which is relative prime to (p-1)*(q-1) let e=11
+>>>on terminal of client 2:Public Key      : {11,221}
+
+
+>>>on terminal of server: connection:2
+			  The IPv4 address is: 10.100.91.82
+
+now on client1 enter connection(you have to follow some protocols to communicate with our server.
+
+
+>>>on terminal of client 1:Public Key      : ip addr??
+
+
+>>>on terminal of server: connection
+			  hey dude
+
+now enter ip address of client2(the client whom which you want to talk) by entering ip adress after ip
+eg. ip10.100.91.82
+
+>>>on terminal of client 2:Public Key?? 
+
+>>>on terminal of server:ip127.0.0.1
+			 ip found
+
+
+now on terminal of client2 enter public key(e and n,n=p*q) by entering it after key and you have to enter 8 keys after key,3 for e and 5 for n.
+eg key01100221
+
+>>>on terminal of client 1:public key??
+			   E=11 n=221 
+			    
+>>>on terminal of server:key01100221
+
+now on terminal of client2 enter public key(e and n,n=p*q) by entering it after key and you have to enter 8 keys after key,3 for e and 5 for n.
+eg key00700033
+
+>>>on terminal of client 1:E=7 n=3 
+			    
+>>>on terminal of server:key00700033
+
+now on terminal of client2 enter connected
+
+>>>on terminal of client connected 
+			    
+>>>on terminal of server:connected
+
+now start chatting between clients.On terminal of server youu can only see the random numbers(encryption form of the given word) and on the terminal of the other client you can see the original word send by the first client.
+press exit on any client anytime to exit connection from all computers.
+
